@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="478.0" prefWidth="433.0" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.AppointmentReportController">
+   <children>
+      <Button layoutX="368.0" layoutY="445.0" mnemonicParsing="false" onAction="#exitButton" text="Exit" />
+      <Label layoutX="29.0" layoutY="14.0" text="Number of Upcoming Appointments by Type and Month">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TableView fx:id="typeTable" layoutX="30.0" layoutY="77.0" prefHeight="360.0" prefWidth="373.0">
+        <columns>
+          <TableColumn fx:id="typeColumn" prefWidth="212.0" text="Type" />
+          <TableColumn fx:id="typeTotalColumn" minWidth="0.0" prefWidth="160.0" text="Number of Appointments" />
+        </columns>
+      </TableView>
+      <ComboBox fx:id="monthComboBox" layoutX="30.0" layoutY="44.0" onAction="#monthSelect" prefWidth="150.0" promptText="Select Month" />
+      <CheckBox fx:id="pastAppointmentCheckBox" layoutX="223.0" layoutY="48.0" mnemonicParsing="false" onAction="#pastAppointmentCheckBox" text="Also Show Past Appointments" />
+   </children>
+</AnchorPane>

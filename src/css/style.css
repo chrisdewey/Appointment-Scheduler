@@ -1,0 +1,50 @@
+#loginBackground {
+-fx-background-color:  linear-gradient(to left top, #bfbec8, #cbcad2, #d7d6dc, #e3e2e7, #efeef1, #f4f4f6, #faf9fa, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff)
+}
+
+#mainBackground {
+-fx-background-color:  linear-gradient(to left top, #bfbec8, #cbcad2, #d7d6dc, #e3e2e7, #efeef1, #f4f4f6, #faf9fa, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff)
+}
+
+#formBackground {
+-fx-background-color:  linear-gradient(to left top, #bfbec8, #cbcad2, #cbcad2, #d7d6dc, #d7d6dc, #e3e2e7, #e3e2e7, #efeef1, #efeef1, #f4f4f6, #f4f4f6, #faf9fa)
+}
+
+#xbtn:hover {
+-fx-text-fill: #808195;
+}
+
+.button {
+-fx-background-color: #808195;
+-fx-text-fill: white;
+-fx-font-weight: bold;
+}
+
+.button:hover {
+-fx-font-style: italic;
+}
+
+/*
+.tab-pane *.tab-header-background {
+    -fx-background-color: -fx-outer-border, -fx-inner-border, derive(-fx-color, -20%);
+    -fx-effect: innershadow(two-pass-box , rgba(0,0,0,0.6) , 4, 0.0 , 0 , 0);
+}
+*/
+
+#anchorpanes {
+-fx-border-color: #bfbec8;
+-fx-border-width: 0px 0px 0px 2px;
+}
+
+#footer {
+-fx-border-color: #bfbec8;
+-fx-border-width: 2px 0px 0px 0px;
+}
+
+.tab-pane .tab-header-area .tab-header-background {
+-fx-opacity: 25%;
+}
+
+.tool-bar {
+-fx-background-color: transparent;
+}
