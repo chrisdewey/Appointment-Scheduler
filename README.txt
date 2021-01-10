@@ -5,10 +5,6 @@ Purpose: Add, Update, and Delete customers which are saved to a database.
 	 within the set business hours of 8:00am to 10:00pm EST.
 
 Author:  Christian Dewey
-	 Student ID: #000957010
-
-Contact: Phone: (801) 717-9395
-	 Email: cdewey2@my.wgu.edu
 
 Date: 31 Dec. 2020
 
