@@ -13,7 +13,7 @@ public class DBConnection {
     //JDBC url parts
     private static final String protocol = "jdbc:";
     private static final String vendorName = "mysql:";
-    private static final String ipAddress = ""; //TODO input IP Address for the Database here
+    private static final String ipAddress = ""; // Input IP Address for the Database here
 
     //JDBC url concatenation
     private static final String jdbcURL = protocol + vendorName + ipAddress;
@@ -21,7 +21,7 @@ public class DBConnection {
     //Driver interface reference
     private static final String MYSQLJDBCDriver = "com.mysql.cj.jdbc.Driver";
 
-    //Database connection username and password //TODO input Database Username and Password here for connection
+    //Database connection username and password // Input Database Username and Password here for connection
     private static final String username = "";
     private static final String password = "";
 

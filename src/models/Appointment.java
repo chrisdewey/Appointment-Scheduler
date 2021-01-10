@@ -15,7 +15,7 @@ public class Appointment {
     private String location;
     private String type;
     private ZonedDateTime startTime;
-    private ZonedDateTime endTime; // TODO change to datetime? maybe not string? --check other projects Main.java for examples.
+    private ZonedDateTime endTime;
     private LocalDateTime createDate;
     private String createdBy;
     private Timestamp lastUpdate;

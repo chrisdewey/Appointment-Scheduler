@@ -63,7 +63,6 @@ public class MainController {
      */
     @FXML
     private void weekRadioBtnPressed(ActionEvent actionEvent) {
-        //TODO change tableview to week view
         monthRadioBtn.setSelected(false);
         allRadioBtn.setSelected(false);
         aptTableView.setPlaceholder(new Label("No scheduled appointments for the next 7 days."));
@@ -93,7 +92,6 @@ public class MainController {
      */
     @FXML
     private void monthRadioBtnPressed(ActionEvent actionEvent) {
-        //TODO change tableview to month view
         weekRadioBtn.setSelected(false);
         allRadioBtn.setSelected(false);
         aptTableView.setPlaceholder(new Label("No scheduled appointments this month."));
@@ -375,7 +373,7 @@ public class MainController {
         titleColumn.setCellValueFactory(new PropertyValueFactory<>("title"));
         descrColumn.setCellValueFactory(new PropertyValueFactory<>("description"));
         locationColumn.setCellValueFactory(new PropertyValueFactory<>("location"));
-        contactColumn.setCellValueFactory(new PropertyValueFactory<>("contactID")); //TODO contact from id to name???? nah.
+        contactColumn.setCellValueFactory(new PropertyValueFactory<>("contactID"));
         typeColumn.setCellValueFactory(new PropertyValueFactory<>("type"));
         startColumn.setCellValueFactory(new PropertyValueFactory<>("startTime"));
 
