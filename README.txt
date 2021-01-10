@@ -20,14 +20,6 @@ JDK version: javac 11.0.8
 
 JavaFX SDK version: javafx-sdk-11.0.2
 
-
-Additional Report Description:
-The additional report included in the program is the 'Customer' report found on the right side of the UI.
-This reports to the user the number of customers located within each Country. If a Country is selected,
-then further information is presented - detailing the ammount of customers located within each 
-First-Level-Division within that selected Country.
-
-
 Directions to use the program:
 First the user must login using appropriate login credentials. After successful login, the user is brought
 to the Main Application screen where they are able to view the upcoming appoingments as well as add, delete,
