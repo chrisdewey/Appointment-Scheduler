@@ -16,7 +16,7 @@ The GUI displays all dates and times converted from UTC to the users local date 
 will be stored in the MySQL database in UTC. The user may also Add, Update, and Delete Customer records.
 
 This JavaFX application, an Undergraduate Computer Science course project, was created under specific constraints
-detailed under the 'Scenario' section as well as an image of the ERD of the Relational Database structure.
+detailed under the 'Scenario' and 'Constraints' sections as well as an ERD of the Relational Database structure.
 
 ![Alt text](LoginScreen.jpg?raw=true "Image of the Login Screen")
 
