@@ -15,6 +15,9 @@ This desktop application allows the user to schedule appointments between a 'Cli
 The GUI displays all dates and times converted from UTC to the users local date and time, and any appointments made
 will be stored in the MySQL database in UTC. The user may also Add, Update, and Delete Customer records.
 
+When the program starts, it checks the System Default language. If the language is French, then the Login screens
+labels and alerts will all be displayed in French. Otherwise, the language will default to English.
+
 This JavaFX application, an Undergraduate Computer Science course project, was created under specific constraints
 detailed under the 'Scenario' and 'Constraints' sections as well as an ERD of the Relational Database structure.
 
